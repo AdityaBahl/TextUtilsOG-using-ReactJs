@@ -159,6 +159,22 @@ Given a string expression determine number of whitespaces in it.
 
 ### Code
 
+```
+%{
+#include<stdio.h>
+int space_cnt = 0;
+%}
+%%
+['\n] {printf("->No. of WHITE Spaces = %d\n", space_cnt); space_cnt = 0;}
+[ ] space_cnt++;
+. ;
+%%
+int main(){
+yylex();
+return 0;
+}
+```
+
 ### Output
 
 output5
