@@ -70,7 +70,32 @@ output2
 
 ### Aim
 
+Given an expression determine whether it is an odd or an even number.
+
 ### Code
+
+```
+%{
+#include<stdio.h>
+int num;
+%}
+%%
+[0-9]+ {
+num = atoi(yytext);
+if(num%2 == 0){
+printf("EVEN\n");
+}else{
+printf("ODD\n");
+}
+ }
+.* {printf("->Invalid Number\n");}
+%%
+int yywrap();
+int main(){
+yylex();
+return 0;
+}
+```
 
 ### Output
 
@@ -80,7 +105,47 @@ output3
 
 ### Aim
 
+Given an expression determine whether it is a PRIME number.
+
 ### Code
+
+```
+%{
+#include<stdio.h>
+#include<stdbool.h>
+int num, i;
+bool chk;
+%}
+%%
+[0-9]+ {
+num = atoi(yytext);
+if(num == 1){
+printf("NOT a PRIME\n");
+}else{
+i = 2;
+chk = true;
+while(i*i<=num){
+if(num%i == 0){
+chk = false;
+break;
+}
+i++;
+}
+if(chk){
+printf("->PRIME\n");
+}else{
+printf("->NOT a PRIME\n");
+}
+}
+ }
+.* {printf("->Invalid Number\n");}
+%%
+int yywrap(void);
+int main(){
+yylex();
+return 0;
+}
+```
 
 ### Output
 
@@ -89,6 +154,8 @@ output4
 ## Experiment 5
 
 ### Aim
+
+Given a string expression determine number of whitespaces in it.
 
 ### Code
 
