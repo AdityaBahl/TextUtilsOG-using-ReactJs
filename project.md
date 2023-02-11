@@ -2,13 +2,10 @@
 
 ### (23 January - 8 February)
 
-## By - Aditya Bahl
-
-## Sec - B
-
-## Roll Number - 25
-
-## University Roll Number - 2016580
+By - Aditya Bahl
+Sec - B
+Roll Number - 25
+University Roll Number - 2016580
 
 ## Experiment 1
 
