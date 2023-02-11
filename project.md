@@ -10,6 +10,8 @@
 
 ## University Roll Number - 2016580
 
+### Experiment 1
+
 ### Aim
 
 Given a String Expression, count number of words in it.
@@ -37,11 +39,7 @@ int main(){
 
 output1
 
-### Aim
-
-### Code
-
-### Output
+### Experiment 2
 
 ### Aim
 
@@ -49,11 +47,23 @@ output1
 
 ### Output
 
+### Experiment 3
+
 ### Aim
 
 ### Code
 
 ### Output
+
+### Experiment 4
+
+### Aim
+
+### Code
+
+### Output
+
+### Experiment 5
 
 ### Aim
 
