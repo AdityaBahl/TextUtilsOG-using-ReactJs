@@ -34,7 +34,7 @@ int main(){
 
 ### Output
 
-output1
+![Screenshot (111)](https://user-images.githubusercontent.com/90335449/218307386-b3f8834b-fdbc-46a6-9660-911ba4622016.png)
 
 ## Experiment 2
 
@@ -64,7 +64,7 @@ return 0;
 
 ### Output
 
-output2
+![Screenshot (112)](https://user-images.githubusercontent.com/90335449/218307430-ed3b8021-2d51-4b50-89e1-d0a45447800a.png)
 
 ## Experiment 3
 
