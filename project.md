@@ -2,10 +2,13 @@
 
 ### (23 January - 8 February)
 
-By - Aditya Bahl<br>
-Sec - B<br>
-Roll Number - 25<br>
-University Roll Number - 2016580<br>
+By - Aditya Bahl
+
+Sec - B
+
+Roll Number - 25
+
+University Roll Number - 2016580
 
 ## Experiment 1
 
@@ -99,7 +102,7 @@ return 0;
 
 ### Output
 
-output3
+![Screenshot (115)](https://user-images.githubusercontent.com/90335449/218308141-04a292e0-43ac-4159-ab93-233d0d97e34e.png)
 
 ## Experiment 4
 
@@ -149,7 +152,7 @@ return 0;
 
 ### Output
 
-output4
+![Screenshot (114)](https://user-images.githubusercontent.com/90335449/218308103-60b1978f-ad2e-4b2c-a11e-1dbaab043d50.png)
 
 ## Experiment 5
 
@@ -177,4 +180,4 @@ return 0;
 
 ### Output
 
-output5
+![Screenshot (113)](https://user-images.githubusercontent.com/90335449/218307936-84ad4972-d43f-467c-aaea-2249fe128496.png)
